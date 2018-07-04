@@ -11,6 +11,7 @@ function UserRGB(Ru, Gu, Bu){
    M =  Math.round(100 * ((1-G-K) / (1-K)));
    Y =  Math.round(100 * ((1-B-K) / (1-K)));
     K1 = K * 100;
+    //Value are in percent, use each variable to calculate amount of ink necessary for the machine
     console.log(C, M, Y, K1);
       }
  else {
